@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Module 01 practice</title>
+    <title>WebStudio</title>
 
     <!-- Project fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +23,7 @@
     />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта (Header) -->
@@ -34,9 +35,9 @@
 
         <!-- Якорные ссылки -->
         <nav class="navigation">
-          <ul class="navigation__list">
+          <ul class="list navigation__list">
             <li class="navigation__item">
-              <a class="link navigation__link current" href="index.html"
+              <a class="link navigation__link current navigation__link--current" href="index.html"
                 >Студия</a
               >
             </li>
@@ -100,7 +101,7 @@
             >Оставьте свои данные, мы вам перезвоним</strong
           >
           <form class="modal-form">
-            <label class="modal-form__label" for="text">
+            <label class="modal-form__label" for="name">
               <span class="modal-form__text">Имя</span>
               <input
                 class="modal-form__input"
@@ -134,7 +135,7 @@
               </svg>
             </label>
 
-            <label class="modal-form__label" for="text">
+            <label class="modal-form__label">
               <span class="modal-form__text">Комментарий</span>
               <textarea
                 class="modal-form__textarea"
@@ -173,7 +174,7 @@
       <section class="about">
         <div class="container about__container">
           <h2 hidden>Наши особенности</h2>
-          <ul class="about__list">
+          <ul class="list about__list">
             <li class="about__item">
               <div class="about__icon-background">
                 <svg class="about__icon" width="70" height="70">
@@ -230,7 +231,7 @@
       <section class="lessons">
         <div class="container lessons__container">
           <h2 class="lessons__title">Чем мы занимаемся</h2>
-          <ul class="lessons__list">
+          <ul class="list lessons__list">
             <li class="lessons__item">
               <img
                 class="lessons__img"
@@ -269,7 +270,7 @@
       <section class="team">
         <div class="container team__container">
           <h2 class="team__title">Наша команда</h2>
-          <ul class="team__list">
+          <ul class="list team__list">
             <li class="team__item">
               <img
                 class="team__img"
@@ -281,7 +282,7 @@
               <div class="team__text">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__position" lang="en">Product Designer</p>
-                <ul class="team__socials-list">
+                <ul class="list team__socials-list">
                   <li class="team__socials-item">
                     <a
                       class="team__socials-link"
@@ -340,7 +341,7 @@
               <div class="team__text">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__position" lang="en">Frontend Developer</p>
-                <ul class="team__socials-list">
+                <ul class=" list team__socials-list">
                   <li class="team__socials-item">
                     <a
                       class="team__socials-link"
@@ -399,7 +400,7 @@
               <div class="team__text">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__position" lang="en">Marketing</p>
-                <ul class="team__socials-list">
+                <ul class="list team__socials-list">
                   <li class="team__socials-item">
                     <a
                       class="team__socials-link"
@@ -458,7 +459,7 @@
               <div class="team__text">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__position" lang="en">UI Designer</p>
-                <ul class="team__socials-list">
+                <ul class="list team__socials-list">
                   <li class="team__socials-item">
                     <a
                       class="team__socials-link"
@@ -514,7 +515,7 @@
       <section class="clients">
         <div class="container clients__container">
           <h2 class="clients__title">Постоянные клиенты</h2>
-          <ul class="clients__list">
+          <ul class="list clients__list">
             <li class="clients__item">
               <a href="" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
@@ -566,12 +567,12 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__contact">
-          <a class="footer__logo" href="index.html" lang="en">
+          <a class="logo footer__logo" href="index.html" lang="en">
             <span class="logo__accent">Web</span>Studio</a
           >
           <address class="footer__address">
             г. Киев, пр-т Леси Украинки, 26
-            <ul class="footer__group">
+            <ul class="list footer__group">
               <li class="footer__item">
                 <a class="link footer__mail" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
@@ -587,7 +588,7 @@
         </div>
         <div class="footer__socials">
           <h3 class="footer__socials-title">Присоединяйтесь</h3>
-          <ul class="footer__socials-list">
+          <ul class="list footer__socials-list">
             <li class="footer__socials-item">
               <a href="" class="footer__socials-link">
                 <svg class="footer__socials-icon" width="20" height="20">
